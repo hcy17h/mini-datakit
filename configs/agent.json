@@ -1,0 +1,11 @@
+{
+  "inputs": [
+    {
+      "name": "cpu",
+      "interval": "2s",
+      "conf": {
+        "path": "/proc/stat"
+      }
+    }
+  ]
+}

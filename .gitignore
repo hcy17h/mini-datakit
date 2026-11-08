@@ -1,0 +1,9 @@
+bin/
+*.exe
+*.out
+*.test
+coverage.txt
+.DS_Store
+
+# 零基础练习区，不放进作品仓库
+learn/
