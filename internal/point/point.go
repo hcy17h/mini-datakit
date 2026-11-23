@@ -28,7 +28,7 @@ type Point struct {
 func New(measurement string) *Point {
 	return &Point{
 		Measurement: measurement,
-		Tags:        make(map[string]string),
+		Tags:        make(map[string]string), // map[string]string{} 也可一样初始化，但 make() 更常用
 		Fields:      make(map[string]float64),
 		Time:        time.Now(),
 	}
